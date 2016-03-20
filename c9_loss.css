@@ -1,0 +1,39 @@
+body
+{
+	background-image: url("../images/c9_loss.jpg");
+	background-position: center cneter;
+	background-size: 25%;
+}
+
+#center
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div
+{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#inner
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1
+{
+	color: white;
+	text-shadow:     
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
